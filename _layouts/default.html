@@ -1,0 +1,125 @@
+{% include base.html %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="{{ page.title }}">
+  
+  <link rel="stylesheet" href="{{ base }}/assets/css/carverous.min.css">
+  <link rel="stylesheet" href="{{ base }}/assets/css/font-awesome-all.min.css">
+  <link rel="stylesheet" href="{{ base }}/assets/css/styles.css">
+  <link rel="icon" type="image/png" href="{{ base }}/assets/images/favicon.png">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109501800-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109501800-1');
+  </script>
+
+  <title>{{ page.title }} - {% if page.url == '/' %} {{ site.tagline }} {% else %} {{ site.title }} {% endif %}</title>
+</head>
+
+<body>
+  <nav class="nav nav-sasha-white nav-fixed nav-t">
+    <div class="container">
+      <div class="nav-toggler nav-toggler-r">
+        <a href="#" class="nav-toggler-word">MENU</a>
+      </div>
+      
+      <a href="/" class="nav-logo">
+        <span class="txt-weight-normal">@cefjoeii</span>
+      </a>
+      
+      <div class="nav-menu">
+        <ul class="nav-menu-l">
+          {% assign nav-pages = site.html_pages | sort: 'order' %} {% for p in nav-pages %} {% if p.order %}
+          <li>
+            <a href="{{ p.url | remove: '.html' }}" {% if p.url == page.url %}class="active" {% endif %}>
+              <i class="{{ p.font-awesome }}"></i>
+              {% if p.url == '/' %}
+              Home
+              {% else %}
+              {{ p.title }}
+              {% endif %}
+            </a>
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+        <span class="nav-form">
+          <a href="/contact" class="btn btn-primary pill">Contact</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Use this div to stick footer to the bottom via flexbox -->
+  <div class="content">
+    {{ content }}
+  </div>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h5 class="txt-weight-medium txt-color-sasha-white">About</h5>
+          <p class="txt-color-sasha-dark">
+            Hey there! Thanks for visiting my site. This is a place where I put random things about me or some of the projects that I have built.
+          </p>
+        </div>
+        
+        <div class="col-lg-4">
+          <h5 class="txt-weight-medium txt-color-sasha-white">Resume</h5>
+          <p class="txt-color-sasha-dark">
+            If you need a printable copy of my resume, here ya go! I’ll update this as necessary. However, my site may always be more up to date.
+          </p>
+          <p>
+            <a href="https://drive.google.com/open?id=0B6SbLoGKugKiM3pqdWR3WGplVEU" target="_blank" class="btn btn-danger btn-sm">View PDF</a>
+          </p>
+        </div>
+        
+        <div class="col-lg-4">
+          <h5 class="txt-weight-medium txt-color-sasha-white">Follow</h5>
+          {% include social.html %}
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="txt-align-c no-margin-b txt-color-sasha-dark">
+        &copy; 2017&ndash;<script>document.write(new Date().getFullYear());</script> Ceferino Jose II. I created this using my <a href="https://github.com/carverous/carverous" target="_blank">Carverous CSS Framework</a>.
+        <br>
+        <a href="/privacy">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+  
+  <script src="{{ base }}/assets/js/carverous.min.js"></script>
+  
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      window.addEventListener('scroll', function () {
+        
+        var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        
+        // Handle nav transparency
+        var navT = document.querySelector('.nav');
+        if (window.innerWidth >= 767) {
+          if (bodyScrollTop > 50) {
+            navT.classList.remove('nav-t');
+          } else {
+            navT.classList.add('nav-t');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

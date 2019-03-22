@@ -1,0 +1,226 @@
+---
+title: Contact
+permalink: "/contact"
+layout: page
+
+heading: Let’s get in touch.
+sub-heading: Thank you for stopping by! Feel free to drop a personal message.
+hero-color: 43849F
+hero-image: 6
+---
+
+<form action="https://formspree.io/cefjoeii@gmail.com" method="POST">
+  <div class="form-group row">
+    <label for="fname" class="col-md-3 col-form-label">First Name</label>
+    <div class="col-md-9">
+      <input type="text" class="form-control" id="fname" name="first_name" maxlength="64" placeholder="Elon" required autocomplete="off">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="lname" class="col-md-3 col-form-label">Last Name</label>
+    <div class="col-md-9">
+      <input type="text" class="form-control" id="lname" name="last_name" maxlength="64" placeholder="Musk" required autocomplete="off">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="email" class="col-md-3 col-form-label">Email</label>
+    <div class="col-md-9">
+      <input type="email" class="form-control" id="email" name="_replyto" maxlength="64" placeholder="elonmusk@spacex.com"
+        required autocomplete="off">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="subject" class="col-md-3 col-form-label">Title</label>
+    <div class="col-md-9">
+      <input type="text" class="form-control" id="subject" name="_subject" maxlength="128" placeholder="Hello World" required autocomplete="off">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="message" class="col-md-3 col-form-label">Message</label>
+    <div class="col-md-9">
+      <textarea class="form-control" id="message" name="message" maxlength="4096" rows="3" autocomplete="off" placeholder="Hi there! Let’s change the world.. or let’s inhabit Mars."
+        required></textarea>
+    </div>
+  </div>
+
+  <!-- Extra info that don't need to be shown' -->
+  <textarea id="meta" name="meta" style="display: none;"></textarea>
+
+  <div class="row">
+    <div class="col-md-12">
+      <p class="txt-align-r txt-color-muted">
+        <small>
+          By clicking Send, you agree that you’ve read the <a href="/privacy" target="_blank">Privacy Policy</a>.
+        </small>
+      </p>
+      <div id="form-status" class="alert"></div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="submit" class="btn btn-primary float-r" value="Send">
+      
+    </div>
+  </div>
+</form>
+
+<script src="{{ base }}/assets/js/http.js"></script>
+<script>
+  var local_ip = 'Unknown';
+
+  detectLocalIP(function(ip) {
+    local_ip = ip;
+  });
+
+  // See: http://jdp.org.uk/ajax/2015/05/20/ajax-forms-without-jquery.html
+  if (document.forms[0] && window.FormData) {
+
+    // Get the one and only form from this page
+    var form = document.forms[0];
+    var formStatus = document.querySelector('#form-status');
+
+    // Listen for the form being submitted
+    form.addEventListener('submit', function (event) {
+
+      // Stop the default submit behavior
+      event.preventDefault();
+
+      // Get email address value
+      var email = document.querySelector('#email').value;
+
+      // Create a message object
+      var message = {
+        loading: 'Sending message...',
+        success: '<strong>Thank you!</strong> I should get back to <strong>' + email + '</strong> within 24 hours. I will find you and I will say hello to you.',
+        error: '<strong>Woah!</strong> There was a problem sending your cool message.'
+      };
+
+      // Reset the form status classList
+      formStatus.classList.remove('alert-success');
+      formStatus.classList.remove('alert-warning');
+      formStatus.classList.add('alert-info');
+
+      // Tell the user it's sending the message
+      formStatus.innerHTML = message.loading;
+
+      // Get geo data re-using my custom http function
+      getData('https://freegeoip.app/json/', function (result) {
+        var meta = 'local_ip: ' + local_ip + '\n'
+          + 'remote_ip: ' + result.ip + '\n' 
+          + 'country_code: ' + result.country_code + '\n'
+          + 'country_name: ' + result.country_name + '\n'
+          + 'region_code: ' + result.region_code + '\n'
+          + 'region_name: ' + result.region_name + '\n'
+          + 'city: ' + result.city + '\n'
+          + 'zip_code: ' + result.zip_code + '\n'
+          + 'time_zone: ' + result.time_zone + '\n'
+          + 'latitude: ' + result.latitude + '\n'
+          + 'longitude: ' + result.longitude + '\n'
+          + 'browser: ' + detectBrowser() + '\n'
+          + 'device: ' + detectDevice();
+
+        // Assign a value to the hidden meta
+        document.querySelector('#meta').value = meta;
+
+        // Create a new FormData object passing in the form's key value pairs (that was easy!)
+        var formData = new FormData(form);
+
+        // Set up the http request re-using my custom http function
+        postData('//formspree.io/cefjoeii@gmail.com', 'accept', 'application/json', formData, function (success) {
+          if (success) {
+            formStatus.classList.remove('alert-info');
+            formStatus.classList.add('alert-success');
+            formStatus.innerHTML = message.success;
+
+            // Clear out the form input
+            form.reset();
+          } else {
+            formStatus.classList.remove('alert-info');
+            formStatus.classList.add('alert-warning');
+            formStatus.innerHTML = message.error;
+          }
+        }); // end of postData
+      }); // end of getData
+    }); // end of form submit event
+  } else {
+    alert('Please try a different browser or the contact function may not work.');
+  }
+
+  // See: https://stackoverflow.com/questions/2400935/browser-detection-in-javascript
+  function detectBrowser() {
+    // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+    var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+    // Firefox 1.0+
+    var isFirefox = typeof InstallTrigger !== 'undefined';
+    // Safari 3.0+
+    var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === '[object SafariRemoteNotification]'; })(!window['safari'] || safari.pushNotification);
+    // Internet Explorer 6-11
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    // Edge 20+
+    var isEdge = !isIE && !!window.StyleMedia;
+    // Chrome 1+
+    var isChrome = !!window.chrome && !!window.chrome.webstore;
+    // Blink engine detection
+    var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+    var browser = '';
+
+    switch (true) {
+      case isOpera: browser = 'Opera'; break;
+      case isFirefox: browser = 'Firefox'; break;
+      case isSafari: browser = 'Safari'; break;
+      case isIE: browser = 'Internet Explorer'; break;
+      case isEdge: browser = 'Edge'; break;
+      case isChrome: browser = 'Chrome'; break;
+      case isBlink: browser = 'Blink'; break;
+      default: browser = 'Not Sure'; break;
+    }
+
+    return browser;
+  }
+
+  function detectDevice() {
+    // Detect a specific brand
+    if (/Android/i.test(navigator.userAgent)) {
+      return 'Android';
+    } else if (/webOS/i.test(navigator.userAgent)) {
+      return 'webOS';
+    } else if (/iPhone/i.test(navigator.userAgent)) {
+      return 'iPhone';
+    } else if (/iPad/i.test(navigator.userAgent)) {
+      return 'iPad';
+    } else if (/iPod/i.test(navigator.userAgent)) {
+      return 'iPod';
+    } else if (/BlackBerry/i.test(navigator.userAgent)) {
+      return 'BlackBerry';
+    } else if (/Windows Phone/i.test(navigator.userAgent)) {
+      return 'Windows Phone';
+    } else if (/Mobi/i.test(navigator.userAgent)) { // If all else fails, just return mobile or desktop
+      return 'Mobile';
+    } else {
+      return 'Desktop';
+    }
+  }
+
+  function detectLocalIP(callback) {
+    window.RTCPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
+    // Compatibility for Firefox and Chrome
+    var pc = new RTCPeerConnection({ iceServers: [] }), noop = function () { };
+    pc.createDataChannel(''); // Create a bogus data channel
+    pc.createOffer(pc.setLocalDescription.bind(pc), noop); // Create offer and set local description
+    pc.onicecandidate = function (ice) {
+      if (ice && ice.candidate && ice.candidate.candidate) {
+        var ip = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(ice.candidate.candidate)[1];
+        callback(ip);
+        pc.onicecandidate = noop;
+      } else {
+        callback('Unknown');
+      }
+    };
+  }
+</script>

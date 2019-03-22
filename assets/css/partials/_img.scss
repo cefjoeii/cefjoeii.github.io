@@ -1,0 +1,16 @@
+// Img
+
+.img-grayscale {
+  -ms-filter: -ms-grayscale(100%);
+  filter: grayscale(100%);
+  @include transition(filter, .15s, linear);
+
+  &:hover {
+    filter: grayscale(0);
+    @include transition(filter, .15s, linear);
+  }
+}
+
+.img-bordered {
+  border: $img-border;
+}

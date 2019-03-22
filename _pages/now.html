@@ -1,0 +1,52 @@
+---
+title: Now
+permalink: "/now"
+layout: default
+order: 3
+
+heading: My Online Activities
+sub-heading: This serves as my personal newsfeed. I tweak this as I discover more tricks.
+hero-color: 504163
+hero-image: 2
+font-awesome: fas fa-clock
+---
+
+{% include page-header.html %}
+
+<div class="page-component nfloat-up">
+  <div class="container">
+    <h2><i class="fab fa-github"></i> Github</h2>
+    <br>
+    <div id="github-activity" style="word-wrap: break-word;">
+      <p class="txt-size-lead">Loading...</p>
+    </div>
+  </div>
+</div>
+
+<div class="page-component nfloat-up  bg-sasha-grey">
+  <div class="container">
+    <h2><i class="fab fa-twitter"></i> Twitter</h2>
+    <p class="txt-size-lead">My Twitter account is private. You can <a href="https://twitter.com/cefjoeii" target="_blank">follow me</a> on the site.</p>
+  </div>
+</div>
+
+<div class="page-component nfloat-up">
+  <div class="container">
+    <h2><i class="fab fa-instagram"></i> Instagram</h2>
+    <p class="txt-size-lead">My Instagram account is private. You can <a href="https://instagram.com/cefjoeii" target="_blank">follow me</a> on the site.</p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+<script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.0"></script>
+<script src="{{ base }}/assets/js/http.js"></script>
+<script src="{{ base }}/assets/js/feeder.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    loadGithubActivity(function (text) {
+      document.querySelector('#github-activity').innerHTML = text;
+      twemoji.parse(document.querySelector('#github-activity'));
+    });
+  });
+</script>

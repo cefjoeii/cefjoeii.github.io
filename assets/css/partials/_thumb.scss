@@ -1,0 +1,44 @@
+// Thumb
+
+.thumb-link:focus .thumb > figure > img {
+  opacity: .15;
+  transform: scale(1.25);
+}
+
+.thumb {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%; // Maintain aspect ratio
+  position: relative;
+  transform: translate3d(0, 0, 0); // Maintain hidden overflow
+
+  > figure {
+    background: $darkest-bg;
+    height:100%; // Make it show independently even without image
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%; // Make it show independently even without image
+  }
+
+  > figure > img {
+    opacity: 1;
+    transition: transform .5s ease, opacity .5s ease;
+    -webkit-transform-style: preserve-3d; // Disable flickering when scaling up
+    -webkit-backface-visibility: hidden; // Disable flickering when scaling up
+  }
+
+  > figure > figcaption {
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    // transition: transform .5s ease;
+  }
+
+  &:hover > figure > img {
+    opacity: .15;
+    transform: scale(1.25);
+  }
+}

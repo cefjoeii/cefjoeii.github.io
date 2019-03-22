@@ -1,0 +1,61 @@
+// Nav
+
+.nav {
+  .nav-logo {
+    font-weight: 700;
+  }
+  
+  .nav-logo img {
+    height: 45px !important;
+  }
+
+  .nav-menu ul li a,
+  .nav-toggler-word {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+@include media-breakpoint ($lg) {
+  .nav {
+    @include transition(all, 0.25s, linear);
+
+    .nav-menu {
+      float: right;
+    }
+
+    .nav-menu ul li a {
+      background: none;
+      @include transition(background, 0.25s, linear);
+    }
+
+    .nav-menu ul li a.active {
+      background: none;
+      color: $nav-link-color-hover;
+    }
+  }
+
+  .nav-t {
+    background: none;
+    box-shadow: none;
+    @include transition(all, 0.2s, linear);
+
+    .nav-logo {
+      color: $nav-t-link-color;
+    }
+
+    .nav-menu ul li a,
+    .nav-menu ul li a.active {
+      background: none;
+      color: $nav-t-link-color;
+    }
+
+    .nav-menu ul li a.active {
+      box-shadow: inset 0 -3px 0 $nav-t-link-color;
+    }
+
+    .nav-menu ul li a:not(.active):hover {
+      color: $nav-t-link-color-hover;
+    }
+  }
+}

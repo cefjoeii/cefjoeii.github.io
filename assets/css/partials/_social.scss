@@ -1,0 +1,65 @@
+// Social
+
+.social {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  float: left;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+
+  &:not(:last-of-type) {
+    margin-right: 5px;
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .fab {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  &-facebook:hover {
+    background: #3B5998;
+  }
+
+  &-instagram:hover {
+    background: #cd486b;
+  }
+
+  &-twitter:hover {
+    background: #55ACEE;
+  }
+
+  &-linkedin:hover {
+    background: #0274B3;
+  }
+
+  &-github:hover {
+    background: #494949;
+  }
+  
+  &-soundcloud:hover {
+    background: #f7953f;
+  }
+
+  &-goodreads:hover {
+    background: #825B49;
+  }
+
+  &-vk:hover {
+    background: #507299;
+  }
+
+  &-stack-overflow:hover {
+    background: #FFA500;
+  }
+
+  &-youtube:hover {
+    background: #D62424;
+  }
+}

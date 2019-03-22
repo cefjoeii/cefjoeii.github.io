@@ -1,0 +1,40 @@
+// Variables
+
+// Breakpoint & Grid
+$sm: 0 !default; // 576
+$md: 576px !default; // 768
+$lg: 768px !default; // 992
+$xl: 992px !default; // 1200
+
+// Color
+$darkest-bg: #20221F !default;
+
+// Image Bordered
+$img-border: 1px solid #dddddd !default;
+
+// Light Link
+$light-link: #4077ad !default;
+
+// Component
+$component-padding-t: 80px !default;
+$component-padding-b: 80px !default;
+$component-padding-t-sm: 40px !default;
+$component-padding-b-sm: 40px !default;
+
+// Hero
+$hero-page-padding-t: 100px !default;
+$hero-page-padding-b: 100px !default;
+$hero-page-padding-t-sm: 50px !default;
+$hero-page-padding-b-sm: 50px !default;
+
+// Nav
+$nav-link-color-hover: #4077ad !default;
+$nav-t-link-color: #fff !default;
+$nav-t-link-color-hover: #ebedee !default; // 81abab
+
+// Spacer
+$spacer: 15px !default;
+
+// Timeline
+$tl-border-color: #545454 !default;
+$tl-border-width: 2px !default;

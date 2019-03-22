@@ -1,0 +1,69 @@
+// Animation
+
+// Variable
+// ====================================================================== //
+$fade-duration: 1s !default;
+
+$float-distance: 50px !default;
+$float-duration: 1s !default;
+
+// Mixin
+// ====================================================================== //
+@mixin nfloat-mix ($keyframe, $transform) {
+  @keyframes #{$keyframe} {
+    0% {
+      opacity: 0;
+      transform: $transform;
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+@mixin nfade-mix ($keyframe, $opacity-start, $opacity-end) {
+  @keyframes #{$keyframe} {
+    0% {
+      opacity: $opacity-start;
+    }
+    100% {
+      opacity: $opacity-end;
+    }
+  }
+}
+
+// Animation Class
+// ====================================================================== //
+.nfade-in {
+  animation: nfade-in $fade-duration ease forwards;
+}
+
+.nfade-out {
+  animation: nfade-out $fade-duration ease forwards;
+}
+
+.nfloat-up {
+  animation: nfloat-up $float-duration ease forwards;
+}
+
+.nfloat-down {
+  animation: nfloat-down $float-duration ease forwards;
+}
+
+.nfloat-left {
+  animation: nfloat-left $float-duration ease forwards;
+}
+
+.nfloat-right {
+  animation: nfloat-right $float-duration ease forwards;
+}
+
+// Keyframe
+// ====================================================================== //
+@include nfade-mix (nfade-in, 0, 1);
+@include nfade-mix (nfade-out, 1, 0);
+@include nfloat-mix (nfloat-up, translateY($float-distance));
+@include nfloat-mix (nfloat-down, translateY(-$float-distance));
+@include nfloat-mix (nfloat-left, translateX($float-distance));
+@include nfloat-mix (nfloat-right, translateX(-$float-distance));

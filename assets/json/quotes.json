@@ -1,0 +1,876 @@
+{
+  "quotes": [
+    {
+      "text": "Don’t let your past learning stop you from learning new things. It’s a simple trap because when we learn new things, the brain tries to associate them with familiar things (i.e. stuff you already know) and when the new concepts are too different or in contradiction with what you already know, this may lead to frustration.",
+      "author": "Alex Ewerlöf"
+    },
+    {
+      "text": "Haters are gonna hate, but in nature, the creatures that adapt survive.",
+      "author": "Alex Ewerlöf"
+    },
+    {
+      "text": "Here’s to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently — they’re not fond of rules... You can quote them, disagree with them, glorify or vilify them, but the only thing you can’t do is ignore them because they change things... they push the human race forward, and while some may see them as the crazy ones, we see genius, because the people who are crazy enough to think that they can change the world, are the ones who do.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Your time is limited, so don’t waste it living someone else’s life.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Get going. Move forward. Aim high. Plan a takeoff. Don’t just sit on the runway and hope someone will come along and push the airplane. It simply won’t happen. Change your attitude and gain some altitude. Believe me, you’ll love it up here.",
+      "author": "Donald J. Trump"
+    },
+    {
+      "text": "A positive attitude causes a chain reaction of positive thoughts, events, and outcomes. It is a catalyst and it sparks extraordinary results.",
+      "author": "Wade Boggs"
+    },
+    {
+      "text": "The happiest man on earth would look into the mirror and see only himself, exactly how he is.",
+      "author": "Albus Dumbledore of Harry Potter"
+    },
+    {
+      "text": "It is not our abilities that show who we truly are. It is our choices.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "text": "We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.",
+      "author": "Sirius Black of Harry Potter"
+    },
+    {
+      "text": "Don’t let what-ifs get in your way. Just do. Just do something. Anything. And it might suck. But you’ll learn something. And that’s fine.",
+      "author": "Alex Neuse"
+    },
+    {
+      "text": "Talent, you have naturally. Skill is only developed by hours and hours and hours of beating on your craft.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "What you think, you become. What you feel, you attract. What you imagine, you create.",
+      "author": "Gautama Buddha"
+    },
+    {
+      "text": "Sometimes life’s going to hit you in the head with a brick. Don’t lose faith. I’m convinced that the only thing that kept me going was that I loved what I did.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Don’t let the noise of others’ opinions drown out your own inner voice.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "If you live each day as it was your last, someday you’ll most certainly be right.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Stay hungry. Stay foolish.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Details matter. It’s worth waiting to get it right.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "When I was 17, I read a quote that went something like: ’If you live each day as if it was your last, someday you’ll most certainly be right.’ It made an impression on me, and since then, for the past 33 years, I have looked in the mirror every morning and asked myself: ’If today were the last day of my life, would I want to do what I am about to do today?’ And whenever the answer has been ’No’ for too many days in a row, I know I need to change something.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "When you grow up, you tend to get told that the world is the way it is and your life is just to live your life inside the world. Try not to bash into the walls too much, try to have a nice family life, have fun, save a little money. That’s a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it… Once you learn that, you’ll never be the same again.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Focusing is about saying ’No.’",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Getting fired from Apple was the best thing that could have ever happened to me. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed me to enter one of the most creative periods of my life.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Don’t feel stupid if you don’t like what everyone else pretends to love.",
+      "author": "Emma Watson"
+    },
+    {
+      "text": "I like books that aren’t just lovely but that have memories in themselves. Just like playing a song, picking up a book again that has memories can take you back to another place or another time.",
+      "author": "Emma Watson"
+    },
+    {
+      "text": "Don’t be trapped by dogma — which is living with the results of other people’s thinking.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "We don’t get a chance to do that many things, and every one should be really excellent. Because this is our life. Life is brief, and then you die, you know? And we’ve all chosen to do this with our lives. So it better be damn good. It better be worth it.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "We’re here to put a dent in the universe. Otherwise why else even be here?",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "My job is not to be easy on people. My job is to take these great people we have and to push them and make them even better.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "What a computer is to me is the most remarkable tool that we have ever come up with. It’s the equivalent of a bicycle for our minds.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "I’d been rejected, but I was still in love, so I decided to start over.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Build up your weaknesses until they become your strong points.",
+      "author": "Knute Rockne"
+    },
+    {
+      "text": "Somebody once said, ’If you took all the money in the world, divided it up equally among everybody, it would soon all be back in the same pockets.’",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.",
+      "author": "Pele"
+    },
+    {
+      "text": "When something is important enough, you do it even if the odds are not in your favor.",
+      "author": "Elon Musk"
+    },
+    {
+      "text": "I’m learning a lot about myself being alone, and doing what I’m doing.",
+      "author": "Chantal Kreviazuk"
+    },
+    {
+      "text": "Develop a passion for learning. If you do, you will never cease to grow.",
+      "author": "Anthony J. D’Angelo"
+    },
+    {
+      "text": "An investment in knowledge pays the best interest.",
+      "author": "Benjamin Franklin"
+    },
+    {
+      "text": "Follow your own passion—not your parents’, not your teachers’ — yours.",
+      "author": "Robert Ballard"
+    },
+    {
+      "text": "Work hard in silence, let your success be your noise.",
+      "author": "Frank Ocean"
+    },
+    {
+      "text": "The greatest pleasure in life is doing what people say you cannot do.",
+      "author": "Walter Bagehot"
+    },
+    {
+      "text": "You don’t have to be great to start, but you have to start to be great.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "Hard work beats talent when talent doesn’t work hard.",
+      "author": "Tim Notke"
+    },
+    {
+      "text": "The first step is you have to say that you can.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "Don't ever let someone tell you, you can't do something. Not even me. You got a dream, you got to protect it. People can’t do something themselves, they want to tell you you can’t do it. You want something, go get it. Period.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "There’s no reason to have a plan B because it distracts from plan A.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "I wake up every morning believing today is going to be better than yesterday.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "You don’t set out to build a wall. You don’t say ’I’m going to build the biggest, baddest, greatest wall that’s ever been built.’ You don’t start there. You say, ’I’m going to lay this brick as perfectly as a brick can be laid.’ You do that every single day. And soon you have a wall.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "The things that have been most valuable to me I did not learn in school.",
+      "author": "Will Smith"
+    },
+    {
+      "text": "Don’t chase the paper. Chase the dream.",
+      "author": "P. Diddy"
+    },
+    {
+      "text": "If I’d had some set idea of a finish line, don’t you think I would have crossed it years ago?",
+      "author": "Bill Gates"
+    },
+    {
+      "text": "Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.",
+      "author": "Bill Gates"
+    },
+    {
+      "text": "If you are born poor, it’s not your mistake. But if you die poor, it’s your mistake.",
+      "author": "Bill Gates"
+    },
+    {
+      "text": "Be nice to nerds. Chances are you’ll end up working for one.",
+      "author": "Bill Gates"
+    },
+    {
+      "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "The more I see, the less I know for sure.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ’happy’. They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
+      "author": "John Lennon"
+    },
+    {
+      "text": "The two most important days in your life are the day you are born and the day you find out why.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "One day or day one. You decide.",
+      "author": "Unknown"
+    },
+    {
+      "text": "Believe you can and you’re halfway there.",
+      "author": "Theodore Roosevelt"
+    },
+    {
+      "text": "Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.",
+      "author": "Mary Kay Ash"
+    },
+    {
+      "text": "You must do the things you think you cannot do.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "text": "Some people want it to happen, some wish it would happen, others make it happen.",
+      "author": "Michael Jordan"
+    },
+    {
+      "text": "The best way of learning about anything is by doing.",
+      "author": "Richard Branson"
+    },
+    {
+      "text": "A dream doesn’t become reality through magic. It takes sweat, determination and hard work.",
+      "author": "Colin Powell"
+    },
+    {
+      "text": "If you love what you do and are willing to do what it takes, it’s within your reach. And it’ll be worth every minute you spend alone at night, thinking and thinking about what it is you want to design or build.",
+      "author": "Steve Wozniak"
+    },
+    {
+      "text": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "The successful warrior is the average man, with laser-like focus.",
+      "author": "Bruce Lee"
+    },
+    {
+      "text": "Take up one idea. Make that one idea your life – think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.",
+      "author": "Swami Vivekananda"
+    },
+    {
+      "text": "Action is the foundational key to all success.",
+      "author": "Pablo Picasso"
+    },
+    {
+      "text": "Success or failure depends more upon attitude than upon capacity successful men act as though they have accomplished or are enjoying something. Soon it becomes a reality. Act, look, feel successful, conduct yourself accordingly, and you will be amazed at the positive results.",
+      "author": "William James"
+    },
+    {
+      "text": "Let me tell you something you already know. The world ain’t all sunshine and rainbows. It is a very mean and nasty place and it will beat you to your knees and keep you there permanently if you let it. You, me, or nobody is gonna hit as hard as life. But it ain’t how hard you hit; it’s about how hard you can get hit, and keep moving forward. How much you can take, and keep moving forward. That’s how winning is done. Now, if you know what you’re worth, then go out and get what you’re worth. But you gotta be willing to take the hit, and not pointing fingers saying you ain’t where you are because of him, or her, or anybody. Cowards do that and that ain’t you. You’re better than that!",
+      "author": "Rocky Balboa"
+    },
+    {
+      "text": "Nobody owes nobody nothing. You owe yourself.",
+      "author": "Rocky Balboa"
+    },
+    {
+      "text": "Cause if you’re willing to go through all the battling you got to go through to get where you want to get, who’s got the right to stop you? I mean maybe some of you guys got something you never finished, something you really want to do, something you never said to someone, something…and you’re told no, even after you paid your dues? Who’s got the right to tell you that, who? Nobody! It’s your right to listen to your gut, it ain’t nobody’s right to say no after you earned the right to be where you want to be and do what you want to do!",
+      "author": "Rocky Balboa"
+    },
+    {
+      "text": "You only get one shot at life, and that means you must follow your passion.",
+      "author": "Brian Robben"
+    },
+    {
+      "text": "Do what you love and the necessary resources will follow.",
+      "author": "Peter McWilliams"
+    },
+    {
+      "text": "Too many of us are not living our dreams because we are living our fears.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "I like to build things. I like to do things. I am having a lot of fun.",
+      "author": "Walter Chrysler"
+    },
+    {
+      "text": "When love and skill work together, expect a masterpiece.",
+      "author": "John Ruskin"
+    },
+    {
+      "text": "Desire! That’s the one secret of every man’s career. Not education. Not being born with hidden talents. Desire.",
+      "author": "Bobby Unser"
+    },
+    {
+      "text": "Earning happiness means doing good and working, not speculating and being lazy. Laziness may look inviting, but only work gives you true satisfaction.",
+      "author": "Anne Frank"
+    },
+    {
+      "text": "Passion will move men beyond themselves, beyond their shortcomings, beyond their failures. ",
+      "author": "Joseph Campbell"
+    },
+    {
+      "text": "Being the richest man in the cemetery doesn’t matter to me… Going to bed at night saying we’ve done something wonderful… that’s what matters to me.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Be willing to go all out, in pursuit of your dream. Ultimately it will pay off. You are more powerful than you think you are. Go for it.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "It has been said, most people die at age 25 and don’t get buried until they are 65. Make an effort to live your life to the fullest.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "You have to be willing to allow the person you are today to DIE so that you can give birth to the person you are meant to become.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "Other people’s opinion of you does not have to become your reality.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "The graveyard is the richest place on earth, because it is here that you will find all the hopes and dreams that were never fulfilled, the books that were never written, the songs that were never sung, the inventions that were never shared, the cures that were never discovered, all because someone was too afraid to take that first step, keep with the problem, or determined to carry out their dream.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "The best revenge is massive success.",
+      "author": "Frank Sinatra"
+    },
+    {
+      "text": "Align yourself with people that you can learn from, people who want more out of life, people who are stretching and searching, and seeking some higher ground in life.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "Accept responsibility for your life. Know that it is you who will get you where you want to go, no one else.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "If you set goals and go after them with all the determination you can muster, your gifts will take you places that will amaze you.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "Help others achieve their dreams and you will achieve yours.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "Wanting something is not enough. You must hunger for it. Your motivation must be absolutely compelling in order to overcome the obstacles that will invariably come your way.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "Life takes on meaning when you become motivated, set goals and charge after them in an unstoppable manner.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "The only limits to the possibilities in your life tomorrow are the buts you use today.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "You take on the responsibility for making your dream a reality.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "There are winners, there are losers, and there are people who have not yet learned how to win.",
+      "author": "Les Brown"
+    },
+    {
+      "text": "The secret of success is learning how to use pain and pleasure instead of having pain and pleasure use you. If you do that, you’re in control of your life. If you don’t, life controls you.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Leaders spend 5% of their time on the problem & 95% of their time on the solution. Get over it & crush it!",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "One reason so few of us achieve what we truly want is that we never direct our focus; we never concentrate our power. Most people dabble their way through life, never deciding to master anything in particular.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Your life changes the moment you make a new, congruent, and committed decision.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "If you do what you’ve always done, you’ll get what you’ve always gotten.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "It is in your moments of decision that your destiny is shaped.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "If you want to be successful, find someone who has achieved the results you want and copy what they do and you’ll achieve the same results.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "I challenge you to make your life a masterpiece. I challenge you to join the ranks of those people who live what they teach, who walk their talk.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Nothing has any power over me other than that which I give it through my conscious thoughts.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Create a vision and never let the environment, other people’s beliefs, or the limits of what has been done in the past shape your decisions.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "The path to success is to take massive, determined action.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "It’s what you practice in private that you will be rewarded for in public.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Your income right now is a result of your standards, it is not the industry, it is not the economy.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Once you have mastered time, you will understand how true it is that most people overestimate what they can accomplish in a year – and underestimate what they can achieve in a decade.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Where focus goes, energy flows.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Remember, rewards come in action, not in discussion.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "People who succeed at the highest level are not lucky; they’re doing something differently than everyone else.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "No matter how many mistakes you make or how slow you progress, you are still way ahead of everyone who isn’t trying.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Someone else is happy with less than what you have.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Whatever you consistently think about and focus upon, you move toward.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Everyday, stand guard at the door of your mind, and you alone decide what thoughts and beliefs you let into your life. For they will shape whether you feel rich or poor, cursed or blessed.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "Repetition is the mother of skill.",
+      "author": "Tony Robbins"
+    },
+    {
+      "text": "It’s a lie to think you’re not good enough. It’s a lie to think you’re not worth anything.",
+      "author": "Nick Vujicic"
+    },
+    {
+      "text": "Have you ever felt trapped in circumstances, then discovered that the only trap was your own lack of vision, lack of courage, or failure to see that you had better options?",
+      "author": "Nick Vujicic"
+    },
+    {
+      "text": "Don’t wish it was easier, wish you were better. Don’t wish for less problems, wish for more skills. Don’t wish for less challenges, wish for more wisdom.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "Motivation is what gets you started. Habit is what keeps you going.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "Get around people who have something of value to share with you. Their impact will continue to have a significant effect on your life long after they have departed.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "Formal education will make you a living; self-education will make you a fortune.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "You must either modify your dreams or magnify your skills.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "You are the average of the five people you spend the most time with.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "We must all suffer one of two things: the pain of discipline or the pain of regret.",
+      "author": "Jim Rohn"
+    },
+    {
+      "text": "Lack of direction, not lack of time, is the problem. We all have 24 hour days.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "Success occurs when opportunity meets preparation.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "You were born to win, but to be a winner you must plan to win, prepare to win, and expect to win.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "There are no traffic jams on the extra mile.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "Positive thinking will let you do everything better than negative thinking will.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "If you don’t see yourself as a winner, then you cannot perform as a winner.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "text": "Don’t wait for your feelings to change to take the action. Take the action and your feelings will change.",
+      "author": "Barbara Baron"
+    },
+    {
+      "text": "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.",
+      "author": "Jamie Paolinetti"
+    },
+    {
+      "text": "You’ve got to follow your passion. You’ve got to figure out what it is you love — who you really are. And have the courage to do that. I believe that the only courage anybody ever needs is the courage to follow your own dreams.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "text": "Follow your instincts. That is where true wisdom manifests itself.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "text": "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses.",
+      "author": "Alphonse Karr"
+    },
+    {
+      "text": "Twenty years from now you will be more disappointed by the things you didn’t do than by the ones you did. So throw off the bowlines, sail away from the safe harbour, catch the trade winds in your sails. Explore. Dream. Discover.",
+      "author": "Mark Twain"
+    },
+    {
+      "text": "Work like hell. I mean you just have to put in 80 to 100 hour weeks every week. This improves the odds of success. If other people are putting in 40 hour workweeks and you’re putting in 100 hour workweeks, then even if you’re doing the same thing, you know that you will achieve in four months what it takes them a year to achieve.",
+      "author": "Elon Musk"
+    },
+    {
+      "text": "You need to literally pick up your video game machine, smash it to pieces, walk out your house, get in your car, and go live in your car. Go somewhere. Go check in to a homeless shelter. You need to shake up your life like it’s never been shaken up before.",
+      "author": "Elliott Hulse"
+    },
+    {
+      "text": "Throw yourself off a cliff, and learn how to fly on the way down.",
+      "author": "Elliott Hulse"
+    },
+    {
+      "text": "Elliott speaks the truth. You want a change in your life? Get rid of the distractions and the laws of the universe will allow you to fill the void with something constructive to focus on and be successful at, which requires time to master. That is the point of this video as I understand it.",
+      "author": "Blake Lynch"
+    },
+    {
+      "text": "When you want to succeed as bad as you want to breathe, then you’ll be successful.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Pain is temporary. It may last for a minute, or an hour or a day, or even a year. But eventually, it will subside. And something else takes its place. If I quit, however, it will last forever.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Avoid being your own enemy.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Sometimes, it ain’t about being the most talented. Sometimes it ain’t about being the smartest. Sometimes it’s not even about working the hardest. Sometimes it’s about consistency! Consistency!",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "If you’re not where you are, if you’re not where you want to be, if you don’t have what you want, want to have, if you’re not where you think you should be at this particular place, it has nothing to do with the system. But it has everything to do with the fact that you’re not making the sacrifice.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "The only way to get out of mediocrity is to keep shooting for excellence.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "I’ve been trying to tell y’all, its’s not your circumstances or situation that determines if you’re gonna be successful or not. I’ve been telling you, it’s your mindset! It’s the way you see it. It’s the way you think it right!",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Everybody has a dream, but not everybody has a grind.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Winners focus on winning. Losers focus on winners.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "You can’t cheat the grind. It knows hows much you’ve invested. It won’t give you nothing you haven’t worked for.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Stop being average. You’re not even good. You were born to be great.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Stop whining. Start grinding.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Be stronger than your excuses.",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "When you’re great, you attract great. When you’re average, you attract average!",
+      "author": "Eric Thomas"
+    },
+    {
+      "text": "Where you are is temporary. You will not be there for the rest of your life.",
+      "author": "Unknown"
+    },
+    {
+      "text": "Other people couldn’t see it. A lot of people didn’t believe it. You were attacked. You were criticised. People were opposing you but you kept on doing it. It was hard. It was rough. It was difficult. But to you, it was worth it.",
+      "author": "Unknown"
+    },
+    {
+      "text": "Say this to yourself everyday: I can write my own book. I can have my own business. I can take the trip and travel around the world. It’s possible. I can bounce back from adversity and reinvent my life. It’s possible.",
+      "author": "Unknown"
+    },
+    {
+      "text": "See, experience is cheap. All it takes is time. Skill is harder, but really only requires hard work — a lot of people can get that. But attitude. You either have it, or you don’t. The right sort of person is so passionate about coding, they can’t be stopped from doing it.",
+      "author": "David Barrett"
+    },
+    {
+      "text": "Success leaves clues. People who succeed at the highest level are doing something differently than everyone else does.",
+      "author": "Tony Robbins‏"
+    },
+    {
+      "text": "Don’t wait for someone to educate you. Educate yourself.",
+      "author": "English with Lucy‏"
+    },
+    {
+      "text": "I have to face life with a newly found passion. I must rediscover the irresistible will to learn, to live and to love.",
+      "author": "Andrea Bocelli"
+    },
+    {
+      "text": "If you feel like there’s something out there that you’re supposed to be doing, if you have a passion for it, then stop wishing and just do it.",
+      "author": "Wanda Sykes"
+    },
+    {
+      "text": "Passion is energy. Feel the power that comes from focusing on what excites you.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "text": "Nothing is as important as passion. No matter what you want to do with your life, be passionate.",
+      "author": "Jon Bon Jovi"
+    },
+    {
+      "text": "A great leader’s courage to fulfill his vision comes from passion, not position.",
+      "author": "John C. Maxwell"
+    },
+    {
+      "text": "I would rather die of passion than of boredom.",
+      "author": "Vincent Van Gogh"
+    },
+    {
+      "text": "If you can’t figure out your purpose, figure out your passion. For your passion will lead you right into your purpose.",
+      "author": "Bishop T.D. Jakes"
+    },
+    {
+      "text": "Chase your passion, not your pension.",
+      "author": "Denis Waitley"
+    },
+    {
+      "text": "Only passions, great passions, can elevate the soul to great things.",
+      "author": "Denis Diderot"
+    },
+    {
+      "text": "Chase down your passion like it’s the last bus of the night.",
+      "author": "Terri Guillemets"
+    },
+    {
+      "text": "You can’t fake passion.",
+      "author": "Barbara Corcoran"
+    },
+    {
+      "text": "You have to be burning with an idea, or a problem, or a wrong that you want to right. If you’re not passionate enough from the start, you’ll never stick it out.",
+      "author": "Steve Jobs"
+    },
+    {
+      "text": "Just don’t give up trying to do what you really want to do. Where there’s love and inspiration, I don’t think you can go wrong.",
+      "author": "Ella Fitzgerald"
+    },
+    {
+      "text": "We’re the creators of our own experience — remembering this, and living our lives from this perspective, empowers us.",
+      "author": "Mike Robbins"
+    },
+    {
+      "text": "You create opportunities by performing, not complaining.",
+      "author": "Muriel Siebert"
+    },
+    {
+      "text": "Working hard for something we don’t care about is called stress; Working hard for something we love is called passion.",
+      "author": "Simon Sinek"
+    },
+    {
+      "text": "We’re not born to pay bills all of our life and then die. Follow your passion relentlessly.",
+      "author": "TheNetNinja"
+    },
+    {
+      "text": "Everyone gets discouraged. But it’s through these times that will show have bad you really want it.",
+      "author": "Chris Sean"
+    },
+    {
+      "text": "Positive action is the best way to put your mistakes in the past.",
+      "author": "Marie Forleo"
+    },
+    {
+      "text": "If you are not doing what you love, you are wasting your time.",
+      "author": "Billy Joel"
+    },
+    {
+      "text": "It’s supposed to be hard. If it were easy, everyone would do it.",
+      "author": "Tom Hanks in A League of Their Own"
+    },
+    {
+      "text": "The impediment to action advances action. What stands in the way becomes the way.",
+      "author": "Marcus Aurelius"
+    },
+    {
+      "text": "The universe reveals its secrets to those who dare to follow their hearts.",
+      "author": "Ralph Smart"
+    },
+    {
+      "text": "If you have ever tried to increase your income, or magnify your spiritual clarity, you know that the world will test you. Only through your persistence, fearlessness, and loving service does the world yield to your efforts.",
+      "author": "The Way Of The Superior Man"
+    },
+    {
+      "text": "Doubt is only removed by action. If you’re not working then that’s where doubt comes in.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "I believe in myself so much that nothing is going to stop me.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "I keep having vivid dreams of success. Then it’s time to sleep.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "The more you seek the uncomfortable the more you will become comfortable.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "I stay ready so I don’t have to get ready.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "There’s no talent here, this is hard work. This is an obsession. Talent does not exist, we are all human beings. You could be anyone if you put in the time. You will reach the top, and that’s that. I am not talented, I am obsessed.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "Always look to learn. Learning something new is a great feeling. The feeling of progress.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "Nothing good ever comes from worrying or sitting there feeling sorry for yourself... keep positive and keep pushing on and things will turn good.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "It’s a tough pill to swallow but we can either run from our adversity or run to our adversity, tale it head on and conquer it.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "I wish everyone well, but you need to focus on yourself. You need to stop putting your hand out. Everyone wants handouts. Everyone wants things for free. You’ve got to put in the world, you’ve got to grind, you’ve got to go through the struggle, and you’ve got to get it.",
+      "author": "Conor McGregor"
+    },
+    {
+      "text": "Love your family, work super hard, live your passion.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "It took thirty-eight years before 50 million people gained access to radios. It took television thirteen years to earn an audience that size. It took Instagram a year and a half.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Passion is an unmatched fuel. Add being happy to that and you have a wonderful formula for good health.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Wake up before everybody else and work into the night. Hustle",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "You have to understand your own personal DNA. Don’t do things because I do them or Steve Jobs or Mark Cuban tried it. You need to know your personal brand and stay true to it.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "You must choose an area where you can win. No, scratch that. Not just win, but absolutely dominate. After all, don’t we have enough mediocre podcasts around?",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Time – the one asset none of us are ever going to get more of.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Effort is grossly underrated.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "The best marketing strategy ever: care.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Stop whining. Start hustling.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Content is king, but marketing is queen, and runs the household.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "Recognise that you have a much bigger chance and a better opportunity than your parents did to build a business around your passion and don’t take that for granted.",
+      "author": ""
+    },
+    {
+      "text": "Recognize that you have a much bigger chance and a better opportunity than your parents did to build a business around your passion and don’t take that for granted.",
+      "author": "Gary Vaynerchuk"
+    },
+    {
+      "text": "No one is going to come to your house and make your dreams come true.",
+      "author": "Grant Cardone"
+    },
+    {
+      "text": "Whatever you want, go all in and dominate, learn it, eat it, sleep it, breath it and believe it.",
+      "author": "Grant Cardone"
+    }
+  ]
+}

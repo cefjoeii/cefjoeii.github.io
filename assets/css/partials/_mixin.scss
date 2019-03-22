@@ -1,0 +1,23 @@
+// Mixin
+
+@mixin transition($el, $duration, $timing) {
+  -webkit-transition: $el $duration $timing;
+  -moz-transition: $el $duration $timing;
+  -o-transition: $el $duration $timing;
+  -ms-transition: $el $duration $timing;
+  transition: $el $duration $timing;
+}
+
+@mixin clearfix {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+
+@mixin media-breakpoint ($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}

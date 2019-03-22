@@ -1,0 +1,22 @@
+// Twitter Emoji
+
+#github-activity img.emoji,
+.fav-countries img.emoji {
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: -.38rem;
+}
+
+#greetings-country img.emoji {
+  height: 2.3rem;
+  width: 2.3rem;
+  vertical-align: -.45rem;
+}
+
+@include media-breakpoint($lg) {
+  #greetings-country img.emoji {
+    height: 2.9rem;
+    width: 2.9rem;
+    vertical-align: -.5rem;
+  }
+}

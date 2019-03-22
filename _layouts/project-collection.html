@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<header class="hero hero-fluid hero-project txt-color-sasha-white">
+  <div class="container nfloat-down">
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
+
+<div class="container page-component nfloat-up">
+  <ul>
+    {% assign cols = site.[page.collection] | sort: 'order' %} {% for c in cols reversed %} {% if c.order %}
+    <li><a href="{{ c.url | remove: '.html' }}">{{ c.title }}</a></li>
+    {% endif %} {% endfor %}
+  </ul>
+  
+  <br>
+  <a href="/projects" class="btn btn-sasha-greyest">&larr; Back to Projects</a>
+</div>

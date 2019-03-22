@@ -1,0 +1,55 @@
+// Hero
+
+.hero {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.hero-home {
+  align-items: center;
+  display: flex;
+  min-height: calc(100vh - 60px);
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.hero-page,
+.hero-project {
+  .container {
+    padding-top: $hero-page-padding-t-sm;
+    padding-bottom: $hero-page-padding-b-sm;
+  }
+}
+
+.hero-project {
+  background: $darkest-bg;
+}
+
+@include media-breakpoint (393px) {
+  .hero-home {
+    .btn + .btn {
+      margin-top: 0;
+    }
+  }
+}
+
+@include media-breakpoint ($lg) {
+  .hero {
+    margin-top: 0;
+  }
+
+  .hero-home {
+    height: 100vh;
+  }
+
+  .hero-page,
+  .hero-project {
+    .container {
+      padding-top: $hero-page-padding-t;
+      padding-bottom: $hero-page-padding-b;
+    }
+  }
+}
