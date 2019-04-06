@@ -15,12 +15,23 @@ function loadGithubActivity(callback) {
         case 'CreateEvent':
           var refType = res.payload.ref_type
 
-          if (refType === "tag") {
-            icon = '🏷'
-            event = 'created a release on';
-          } else {
-            icon = '💡'
-            event = 'created a ' + refType;
+          switch(refType) {
+            case 'repository':
+              icon = '💡';
+              event = 'created a ' + refType;
+              break;
+            case 'branch':
+              icon = '🌱';
+              event = 'created a ' + refType;
+              break;
+            case 'tag':
+              icon = '🏷';
+              event = 'created a release on';
+              break;
+            default:
+              icon = '💎';
+              event = 'created a ' + refType;
+              break;
           }
 
           linkUrl = 'https://github.com/' + res.repo.name;
@@ -35,7 +46,7 @@ function loadGithubActivity(callback) {
           break;
 
         case 'PushEvent':
-          icon = '✅';
+          icon = '⬆️';
 
           var commitCount = res.payload.commits.length;
 
@@ -50,7 +61,7 @@ function loadGithubActivity(callback) {
           break;
 
         case 'ForkEvent':
-          icon = '🔀';
+          icon = '🧬';
           event = 'forked a repository';
           linkUrl = 'https://github.com/' + res.repo.name;
           linkText = res.repo.name;
@@ -80,12 +91,16 @@ function loadGithubActivity(callback) {
         case 'GollumEvent':
           var page = res.payload.pages[0];
 
-          if (page.action === "created") {
-            icon = '📄';
-          } else if (page.action == "edited") {
-            icon = '📝';
-          } else {
-            icon = '📃';
+          switch(page.action) {
+            case 'created':
+              icon = '📄';
+              break;
+            case 'edited':
+              icon = '📝';
+              break;
+            default:
+              icon = '📃';
+              break;
           }
           
           event = page.action + ' a wiki page';
@@ -94,7 +109,7 @@ function loadGithubActivity(callback) {
           break;
 
         default:
-          icon = '😱'
+          icon = '😱';
           event = 'did something on';
           linkUrl = 'https://github.com/' + res.repo.name;
           linkText = res.repo.name;
