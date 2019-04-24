@@ -40,8 +40,3 @@ collections:
     permalink: /:collection/:path
 
 include: ["_pages"]
-
-url: "https://cefjoeii.com"
-
-plugins: 
-  - jekyll-sitemap
